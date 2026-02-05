@@ -1,6 +1,14 @@
 # tm_retrieval
 
-(True) Optical field Transmission Matrix retrieval in Pytorch + Lightning
+(True) Optical field Transmission Matrix retrieval in Pytorch + Lightning.
+
+This my open implementation of the method described in our paper: https://ieeexplore.ieee.org/document/10459341.
+
+An example is given from a simulated Step-Index fiber dataset.
+
+Tweak it to your own needs, but please cite the original paper!
+
+Thanks, and happy retrieval!
 
 ## Installation
 
