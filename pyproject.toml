@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tmret"
+dynamic = ["version"]
+description = "(True) Transmission Matrix retrieval in Pytorch + Lightning"
+readme = "README.md"
+license = { text = "GPL" }
+
+requires-python = ">=3.11"
+
+authors = [
+    { name = "Jérémy Saucourt", email = "jysru@pm.me" }
+]
+
+dependencies = [
+    "h5py",
+    "ipykernel",
+    "ipython",
+    "jupyter",
+    "lightning",
+    "matplotlib",
+    "mat73",
+    "numpy",
+    "scipy",
+    "setuptools",
+    "torchmetrics",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+
+# Keep pytest in dev extras instead
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[project.urls]
+Homepage = "https://github.com/jysru/tm_retrieval"
+Repository = "https://github.com/jysru/tm_retrieval"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tmret"]
+
+[tool.setuptools_scm]
+version_scheme = 'post-release'
+local_scheme = 'no-local-version'
