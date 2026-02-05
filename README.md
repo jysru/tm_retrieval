@@ -18,6 +18,8 @@ cd <this_project>
 pip install -e .
 ```
 
+- Download the example data file to get along with the provided example from here: https://drive.proton.me/urls/VV000BHHNR#XVWnglrm2UXh, then put it into the `./resources` folder
+
 ## Example
 
 Check [pixel_to_pixel_fiber_transmission_matrix.ipynb](./examples/pixel_to_pixel_fiber_transmission_matrix.ipynb)

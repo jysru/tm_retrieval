@@ -1,7 +1,7 @@
 *.vscode
 *.asv
 *.mat
-#*.hdf5
+*.hdf5
 *.h5
 *lightning_logs*
 __pycache__*
